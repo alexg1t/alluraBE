@@ -1,9 +1,9 @@
 public class TestReferencia {
     public static void main(String[] args){
 
-        Cuenta primeraCuenta = new Cuenta();
+        Cuenta primeraCuenta = new Cuenta(33);
        
-        Cuenta segundaCuenta = new Cuenta();
+        Cuenta segundaCuenta = new Cuenta(22);
         
 
         System.out.println("Saldo p cuenta :" + primeraCuenta.obtenerSaldo());

@@ -5,7 +5,7 @@ public class TestReferencia2 {
         diego.documento = "323232";
         diego.telefono="90232323";
 
-        Cuenta cuentaDiego = new Cuenta();
+        Cuenta cuentaDiego = new Cuenta(33);
        
         cuentaDiego.titular = diego;
 
